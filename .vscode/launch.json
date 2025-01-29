@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: Recipes App",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/recipes.py",
+        "console": "integratedTerminal"
+      },
+      {
+        "name": "Python: Pytest",
+        "type": "python",
+        "request": "launch",
+        "module": "pytest",
+        "console": "integratedTerminal",
+        "justMyCode": true
+      }
+    ]
+}
+  
